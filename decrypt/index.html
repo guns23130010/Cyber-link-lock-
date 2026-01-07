@@ -4,13 +4,13 @@
 <head>
   <!-- Metadata -->
   <meta charset="utf-8" />
-  <meta name="author" content="Jacob Strieb" />
-  <meta name="description" content="Password protect links using AES in the browser." />
+  <meta name="author" content="Ganesh Kumar" />
+  <meta name="description" content="Password protect links using AES in the browser with Cyber Link Lock." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 
-  <title>Decrypt Link Lock URLs</title>
+  <title>Decrypt Cyber Link Lock URLs</title>
 
   <!-- Styles -->
   <link rel="stylesheet" href="../style.css" type="text/css" />
@@ -23,32 +23,37 @@
 
 <body onload="main()">
   <!-- View on GitHub ribbon -->
-  <a href="https://github.com/jstrieb/link-lock" target="_blank">
+  <a href="https://guns23130010.github.io/Cyber-link-lock-/" target="_blank">
     <img class="ribbon" src="../corner-ribbon-minified.svg" alt="View on GitHub" />
   </a>
 
   <!-- Explanation for those who do not have JavaScript enabled -->
   <noscript>
   <div class="red-border">
-    <p>If you are seeing this, it means that you have JavaScript disabled. Please enable JavaScript to access the locked link.</p>
+    <p>If JavaScript is disabled, Cyber Link Lock will not work properly. Please enable JavaScript.</p>
 
-    <p>This application is entirely programmed in JavaScript. This was done intentionally, so that all encryption and decryption happens client-side. This means the code runs as a distributed application, relying only on GitHub Pages for infrastructure. It also means that no data about locked links is ever stored on a server. The code is designed to be auditable so users can investigate what is happening behind the scenes.</p>
+    <p>This is an open-source project fully written in JavaScript. All encryption and decryption happen client-side, and no data is stored on any server.</p>
 
-    <p>If you still want to run the application, I encourage you to clone the <a href="https://github.com/jstrieb/link-lock">source code on GitHub</a>. That way you can disable JavaScript only for trusted files on your local machine.</p>
+    <p>Cyber Link Lock is developed as a Final Year Project by Ganesh Kumar.</p>
   </div>
   </noscript>
 
-  <!-- Display errors in a big red box -->
+  <!-- Display errors -->
   <div class="error red-border" style="display: none">
     <p id="errortext">Error</p>
     <button onclick="main()">Try again</button>
-    <a href="https://jstrieb.github.io/link-lock"><button>Lock a link</button></a>
+    <a href="https://guns23130010.github.io/Cyber-link-lock-/"><button>Lock a link</button></a>
   </div>
 
-  <h1>Decrypt Link Lock URLs</h1>
-  <p>This application is for decrypting <a href="https://github.com/jstrieb/link-lock" target="_blank">Link Lock</a> URLs without automatically redirecting. This is useful if you do not trust the source of an encrypted URL. It is also useful if the URL uses a blocked protocol like <code>javascript:</code>, for example.</p>
+  <h1>Decrypt Cyber Link Lock URLs</h1>
+  <p>
+    This application is used to decrypt <strong>Cyber Link Lock</strong> URLs without automatically redirecting.
+    This is useful when verifying links from untrusted sources.
+  </p>
 
-  <p>This page is also useful if you think you have received a locked link, but it uses another domain, instead of <code>jstrieb.github.io</code>. This may be done as a means to <a target="_blank" href="https://github.com/jstrieb/link-lock/#evading-censorship">evade censorship</a>.</p>
+  <p>
+    Cyber Link Lock is an open-source, privacy-focused tool that performs all operations inside the browser.
+  </p>
 
   <hr />
 
@@ -75,9 +80,10 @@
   <!-- Page footer -->
   <footer>
   <hr />
-  <p class="copyright">Created by <a href="https://jstrieb.github.io">Jacob Strieb</a>.</p>
+  <p class="copyright">
+    Cyber Link Lock – Open Source Final Year Project | Developed by Ganesh Kumar
+  </p>
   </footer>
-</body>
 </body>
 
 </html>
